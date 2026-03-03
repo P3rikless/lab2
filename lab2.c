@@ -4,8 +4,7 @@
 int function(int x)
 {
 	x=x-2;
-	if(x>0)
-	x=function(x);
+	//x=function(x);
 	return x;
 }
 
@@ -16,7 +15,7 @@ int main(){
 		a=function(a);
 		i++;
 	}
-	printf("%d \n\n\n", i);
+	printf("\n a/2= %d \n\n",i);
 	return 0;	
 }
 
